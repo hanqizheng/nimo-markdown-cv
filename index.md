@@ -1,15 +1,13 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: HanQizheng
+phone: 16600255706
 email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
-homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: hanqizheng598@gmail.com
+  text: hanqizheng598@gmail.com
 ---
 
-# Wode **Ni**
+# 韩启正
 
 <!--
 include contact information from the front matter
@@ -21,109 +19,57 @@ Supported arguments:
 
 {% include cv-contact.html %}
 
-## Education
+## 基本信息
 
-### **Carnegie Mellon University** `2018.9 -`
+### 南开大学滨海学院    -   计算机科学与技术 - 本科`2015.9 - 2019.6`
 
-```
-Pittsburgh, PA
-```
+### 微信号： HQZ510`或166-0025-5706`
 
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
+### 期望： 前端工程师 `北京`
 
-### **Columbia University** `2016.9 - 2018.5`
+### Github: github.com/hanqizheng
 
-```
-New York, NY
-```
 
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
+## 工作经历
 
-### **Dickinson College** `2013.9 - 2016.5`
+### **中发智能科技 - 前端工程师** `2019.5 - 至今`
 
-```
-Carlisle, PA
-```
+负责公司项目中，前端界面的代码编写，对应项目的前端文档的书写和已有项目的维护与重构。
 
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
+### **清华同方有云 - Node.js实习生** `2018.7 - 2019.4`
 
-## Publications
+参与公司项目的后端部分代码编写。学习Node相关的知识并在项目中进行实践。
 
-### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
+## 项目经历
 
-Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST_<br>
-[[PDF](http://plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
+### **QSMS(质量安全管理平台)** `2019.7 - 2019.8`
 
-### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://plateau-workshop.org/assets/papers-2019/2.pdf)
+> _JavaScript / React / Ant Design / Echarts_
 
-Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST_<br>
-[[PDF](http://plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
+该项目是中发集团用于管理不同项目工地而定制的一个全新的管理平台。<br>
+我**独立开发**了整个项目的前端部分。 包括数据概览、检查记录管理、权限管理、消息管理四个模块。数据概览部分使用了Echarts来进行图表展示。检查记录、权限管理、消息管理则是用于展示数据的列表界面。<br>
+其中**难点**是权限管理需要动态配置不同角色所显示的界面权限和界面所包含的相关操作的权限。界面的权限配置通过umi的路由配置和接口的配合来完成。而页面所包含相关操作的权限通过抽离出一个组件来包裹需要判断的操作。
 
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
+### **SIP(中发大楼智能化)** `2019.8 - 2019.9`
+> _TypeScript / React / Ant design / 重构_
 
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF](https://www.cs.cmu.edu/~woden/assets/dsldi.pdf)]
-[[slides](https://www.cs.cmu.edu/~woden/assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
+该项目是**重构旧版本**SIP的前端代码。选择用**TypeScript**作为主要语言，**React Hooks**写法来进行重构。<br>
+我主要负责停车场管理、预案库管理、空调阶梯温控三个新模块的编写和设备管理、告警管理、会议室管理、访客管理四个原有模块的代码重构。界面主要都是数据的列表、图表展示。<br>
+其中的**难点**是首次使用React Hooks，对它的写法，和特性都需要重新了解，学习。但是熟悉之后，会发现Hooks优势非常明显。
 
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
+### **天津团泊镇智能运维APP** `2019.9 - 2019.10`
+> _React Native / React Hooks / React Navigation_
 
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](https://www.cs.cmu.edu/~woden/assets/superres.pdf)]
+该项目是为天津市团泊镇定制的一款智能网格化管理Android App。
+我在项目中主要负责运维提醒，事件上报，我的任务，上报审批，处理审批，自行处理六个模块。<br>
+其中**难点**是不同模块需要共用一个详情界面，而每个详情界面所显示的内容会根据角色和当前事件的状态而存在差异，所以需要将界面可抽离的逻辑变成组件，方便代码的复用，减少冗余代码，让详情界面的代码变得易读。
 
-## Experience
+## 技能清单
 
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
-
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
-
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
-
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-### **AsiaInfo** `2015.6 - 2015.8`
-
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
-
-## Advising
-
-Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
-Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-Anael Kuperwajs Cohen (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-
-## Teaching
-
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
-
-## Honors & Awards
-
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-
-## Service
-
-Research Experiences for Undergraduates in Software Engineering (REUSE) Program Admission Committee `CMU, 2019`
+熟悉 JavaScript、熟悉其ES6/ES7的相关特性<br>
+熟悉 React，熟悉React Hooks, 熟悉 Antd<br>
+了解React-Native,有React-Native开发经验<br>
+了解Node.js，有Node.js开发经验<br>
 
 <!-- ### Footer
 
