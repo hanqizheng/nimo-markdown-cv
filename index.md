@@ -70,6 +70,7 @@ Github: github.com/hanqizheng
 
 熟悉 React，了解React Hooks, 可以使用React构建目标界面、封装可复用的组件用于项目开发。<br> 
 熟悉 Ant Design，了解antd中各个组件的用法并可以根据项目需求来扩展修改封装出具体的组件。<br>
+了解React Native，可以使用React Native编写相对简单没有复杂动画效果之类的界面。<br>
 英语六级，良好的英语能力，可以无障碍阅读相关技术文档<br>
 
 <!-- ### Footer
