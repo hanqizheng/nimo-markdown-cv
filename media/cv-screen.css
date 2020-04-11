@@ -134,15 +134,15 @@ code {
 
 
 li:before {
-	content: "-";
+	content: " - ";
 	position: relative;
-	left: -0.5em;
+	left: 0em;
 }
 
 li {
 	/*second line indent*/
-	padding-left: 2.25em;
-	text-indent: -1.25em;
+	padding-left: 2.5em;
+	text-indent: -1.0em;
 	font-size: 20%;
 	line-height: 17pt;
 	/*color: #777;*/
