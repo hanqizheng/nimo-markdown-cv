@@ -33,6 +33,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+	counter-reset:num;
 }
 blockquote, q {
 	quotes: none;
@@ -134,7 +135,9 @@ code {
 
 
 li:before {
-	content: " - ";
+	content: counter(num) '. ';
+	font-weight: bold;
+	counter-increment:num 1;
 	position: relative;
 	left: 0em;
 }
