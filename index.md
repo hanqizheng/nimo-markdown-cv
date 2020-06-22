@@ -26,9 +26,9 @@ Supported arguments:
 
 期望： 前端工程师 - 北京
 
-Github: github.com/hanqizheng
+微信： HQZ510(或电话号码)
 
-博客：hanqizheng.github.io
+Github: github.com/hanqizheng
 
 ## 工作经历
 
